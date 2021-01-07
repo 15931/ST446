@@ -1,6 +1,6 @@
 # ST446 projects
 
-## Project delivery date and expectations
+## Project topics and expectations
  
 Your project should demonstrate an understanding of concepts, methods and technologies in the area of distributed computing for big data and how to apply them. 
 This should involve using knowledge acquired in the course and building on this knowledge through an independent study to go more deeply into a specific subject. 
