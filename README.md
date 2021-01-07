@@ -2,7 +2,7 @@
 
 * **Instructors:**
    * Lectures: Milan Vojnovic
-   * Seminars: Marcos Barreto, Jenjira Jaimunk, and Kaifang Zhou
+   * Seminars: Marcos Barreto, Jenjira Jaimunk (weeks 7-11), and Kaifang Zhou (weeks 1-5)
 
 * **Office hours (week 2 onwards, use LSE Student Hub to book a time slot):**
    * Lectures: Wednesday 09:00-10:00 and 16:00-17:00
