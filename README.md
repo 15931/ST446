@@ -1,7 +1,7 @@
 ## ST446 Distributed Computing for Big Data
 
 * **Instructors:**
-   * Lecturs: Milan Vojnovic
+   * Lectures: Milan Vojnovic
    * Seminars: Marcos Barreto, Jenjira Jaimunk, and Kaifang Zhou
 
 * **Office hours (week 2 onwards, use LSE Student Hub to book a time slot):**
