@@ -21,7 +21,7 @@ what is your solution and why you have chosen given solution. The abstract shoul
 You may use visualizations in your report, for example using Matplotlib and other Python libraries. 
 Your report may describe a working prototype application (e.g. running a stream processing code that continuously processes an input stream). In this case, your report should contain a clear and full description of the steps that one needs to follow in order to run your application. Your report should cite any references that you use. You may also discuss and cite any previously proposed alternative solutions to your problem. The conclusion section should briefly summarise the results of your project, highlight your main findings, and briefly discuss any interesting avenues for future research.
 
-The list of candidate projects is given below to give you some idea about potential project topics. You may but is not expected to take one of the project topics listed below. 
+The list of candidate projects is given below to give you some idea about potential project topics. You may (but you are not expected) to take one of the project topics listed below. 
 
 ## Candidate project topics
 
