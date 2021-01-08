@@ -20,3 +20,5 @@
 
 * **Using Google Cloud Platform**
    * Add information here about allocation of coupons
+
+Add information about project marking criteria
