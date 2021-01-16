@@ -8,7 +8,7 @@
 
 * **Seminars**:
    * Group 1: Thursday, 09:00-10:30, Zoom [link](https://lse.zoom.us/j/89356520905?pwd=ZWxHKzBOeVkrTUdzY3BDZTBZOWk0UT09), Meeting ID: 893 5652 0905, Passcode: 530358
-   * Group 2: Friday, 12:30-14:00, Zoom [link](https://lse.zoom.us/j/2700155284?pwd=VWlUTlcrNldGKzhoS1p6YTNYb1hvZz09), Meeting ID: ID 270 015 5284, Passcode: 123321
+   * Group 2: Friday, 12:30-14:00, Zoom [link](https://lse.zoom.us/j/82586662329?pwd=Z1d0K0l3alJXWmJjb3AxanpEL2Zqdz09), Meeting ID: ID 825 8666 2329, Passcode: 123321
 
 * **Office hours (week 2 onwards, use LSE Student Hub to book a time slot):**
    * Lectures: Wednesday 09:00-10:00 and 16:00-17:00
