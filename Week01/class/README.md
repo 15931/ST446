@@ -8,9 +8,9 @@ Throughout the module, we will try to use GCP to learn how to use clusters and m
 
 * If you have problems accessing GCP, try the [LSE Remote Desktop](https://desktop.lse.ac.uk/). There are some [guidelines here](https://info.lse.ac.uk/staff/divisions/academic-registrars-division/systems/Remote-access).
 
-* You can also **install the required software (Anaconda, Jupyter and Spark) on your own computer**. To do that, check [this file](../instructions/local_installation.md).
+* You can also **install the required software (Anaconda, Jupyter and Spark) on your own computer**. To do that, check [this file](../../instructions/local_installation.md).
 
-* Alternatively, you can use other environments such as [Microsoft Azure](../instructions/azure-hdinsight.md), [Databricks Community Edition](../instructions/databricks_spark.md) or [Amazon AWS](https://aws.amazon.com/free/).
+* Alternatively, you can use other environments such as [Microsoft Azure](../../instructions/azure-hdinsight.md), [Databricks Community Edition](../../instructions/databricks_spark.md) or [Amazon AWS](https://aws.amazon.com/free/).
 
 General notes:
 * The instructions provided here are written primarily for Mac OS / Linux systems. Many of commands that run on Mac OS / Linux systems have their (approximate) equivalents on Windows systems. You may find some of these equivalents here: [command_table.md](command_table.md). Some of the commands on Mac OS / Linux systems do not have equivalent commands on Windows systems (e.g. chmod).
