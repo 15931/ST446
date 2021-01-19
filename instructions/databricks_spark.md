@@ -6,17 +6,17 @@ Follow these steps to register for free at Databricks Community Edition, create 
 
 Refer to the [Try Databricks page](https://databricks.com/try-databricks) and fill out your information. Then click on Get Started for Free. 
 
-![databricks-registration](./figs/databricks_1.png)
+<img src="./figs/databricks_1.png" width=750>
 
 You will be able to register for a Community Edition license, which means you will have access to a single (one node) cluster with 15GB of RAM, 6GB of storage, Python, Spark and Scala.
 
-![databricks-registration](./figs/databricks_2.png)
+<img src="./figs/databricks_2.png" width=750>
 
 # Databricks dashboard
 
 Once you started your Community Edition, the dashboard allows you to create a new cluster, new notebook or a new table.
 
-![databricks-dashboard](./figs/databricks_3.png)
+<img src="./figs/databricks_3.png" width=750>
 
 As a first experiment, choose **Explore the Quickstart Tutorial**. This will guide you through the process of creating a new cluster, attaching a notebook to it and
 running some basic SQL commands.
@@ -27,11 +27,11 @@ The standard runtime version is 7.4 (Spark 3.0.1). Althought the list shows diff
 
 The same applies to Regions. In this Community Edition license, only *us-west-2* is available.
 
-![databricks-cluster1](./figs/databricks_4.png)
+<img src="./figs/databricks_4.png" width=750>
 
 Once your cluster is created and ready, it shows a green circle. **This process can take some minutes to complete as the Community Edition is a shared platform and there is only one region available.**
 
-![databricks-cluster2](./figs/databricks_5.png)
+<img src="./figs/databricks_5.png" width=750>
 
 Go back to the tutorial to attach a simple notebook with some SQL commands over a test table (dataset).
 
@@ -39,21 +39,21 @@ Go back to the tutorial to attach a simple notebook with some SQL commands over 
 
 On the left panel, choose Data to Create a New Table. You can import data from your local machine, [Amazon S3 (Simple Storage Service)](https://aws.amazon.com/s3/) or [DBFS (Databricks File System)](https://docs.databricks.com/data/databricks-file-system.html).
 
-![databricks-newtable1](./figs/databricks_6.png)
+<img src="./figs/databricks_6.png" width=750>
 
 For testing purposes, you can upload a simple TXT or CSV file into your dashboard. You may also choose which cluster should be used to create this new table. Then, you can choose between Create Table with UI or Create Table in Notebook.
 
-![databricks-newtable2](./figs/databricks_7.png)
+<img src="./figs/databricks_7.png" width=750>
 
 The first option will allow you to preview and then create the new table.
 
-![databricks-newtable3](./figs/databricks_8.png)
+<img src="./figs/databricks_8.png" width=750>
 
-![databricks-newtable4](./figs/databricks_9.png)
+<img src="./figs/databricks_9.png" width=750>
 
 The second option will provide a basic set of commands to create this new table inside your notebook.
 
-![databricks-newtable5](./figs/databricks_10.png)
+<img src="./figs/databricks_10.png" width=750>
 
 ## Further references
 
