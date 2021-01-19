@@ -12,7 +12,7 @@ Refer to the [Azure free account](https://azure.microsoft.com/en-gb/free/) Websi
 
 Once you have registered, go to your **Portal** dashboard and do a quick tour to get yourself familiarized with the environment. 
 
-<img src="./figs/azure-1.png" width=600>
+<img src="./figs/azure-1.png" width=700>
 
 You can check the links below for further reference on how to use and customize your Azure portal:
 
