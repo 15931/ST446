@@ -12,7 +12,7 @@ Refer to the [Azure free account](https://azure.microsoft.com/en-gb/free/) Websi
 
 Once you have registered, go to your **Portal** dashboard and do a quick tour to get yourself familiarized with the environment. 
 
-<img src="./figs/azure-1.png" width=700>
+<img src="./figs/azure-1.png" width=750>
 
 You can check the links below for further reference on how to use and customize your Azure portal:
 
@@ -25,11 +25,11 @@ You can check the links below for further reference on how to use and customize 
 
 One important abstraction inside Azure is the **Resource Group**, which is a logical way of grouping data and services you are using in your workspace to run a give application.
 
-![azure-resource-group](./figs/azure-2.png)
+<img src="./figs/azure-2.png" width=750>
 
 You need to create a resource group before creating any other resource (e.g. cluster or virtual machine). In your **Portal**, click on **Resource Groups** and then on **Add** to open a creation form. Make sure you are using the Free Trial subscription (this should appear automatically). Provide a name and a region for your resource group. In my example, I have used *(Europe) UK South* to minimize latency. Click on **Review + Create**.
 
-![azure-resource-group-creation](./figs/azure-3.png)
+<img src="./figs/azure-3.png" width=750>
 
 ## (OPTIONAL) Virtual machine creation
 
@@ -37,15 +37,15 @@ Virtual machine creation in Azure usually takes a long time (20-30 minutes) to c
 
 You can now create a virtual machine for experimentation. Back to your **Portal**, click on **Virtual Machines** and then on **Add** to open a creation form. 
 
-![azure-vm-creation1](./figs/azure-4.png)
+<img src="./figs/azure-4.png" width=750>
 
 Your Free Trial subscription should appear again. Pick the resource group you created in the last step and use the same region for your virtual machine. You should provide a name and choose one image from the list of Linux and Windows OS images available. Depending on your choice, you will have a set of different **sizes** of virtual machines to choose from. For experimentation purposes, you can choose any *Standard 1 vcpu* image.
 
-![azure-vm-creation2](./figs/azure-5.png)
+<img src="./figs/azure-5.png" width=750>
 
 You should also provide an username and password to connect to your virtual machine or use an SSH key. Have a look on the links below for some guidance on how to use SSH keys to connect to virtual machines in Azure. 
 
-![azure-vm-creation3](./figs/azure-6.png)
+<img src="./figs/azure-6.png" width=750>
 
 * [SSH keys with Windows on Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/ssh-from-windows)
 * [SSH to your Azure Linux VMs](https://joelatwar.medium.com/how-to-ssh-to-your-azure-linux-vms-with-username-and-password-from-windows-linux-or-mac-df7d07ea3be1)
