@@ -13,7 +13,7 @@ Finally, we will learn how to run a jupyter notebook on the cluster.
 
 ## 1. Preparation
 In this section we will look into setting up a remote cluster using the Google Cloud Platform.
-Similar functionality is also available through other Infrastructure-as-a-Service providers, such as [Amazon Web Services](https://aws.amazon.com/free/), [Databricks Community Edition](../instructions/databricks_spark.md) and [Microsoft Azure](../instructions/azure-hdinsight.md).
+Similar functionality is also available through other Infrastructure-as-a-Service providers, such as [Amazon Web Services](https://aws.amazon.com/free/), [Databricks Community Edition](../../instructions/databricks_spark.md) and [Microsoft Azure](../../instructions/azure-hdinsight.md).
 
 GCP can be accessed via the Google Cloud Console and the Google Cloud SDK. Please make sure you can access the Google Cloud Console and install the Google Cloud SDK on your computer.
 
