@@ -287,7 +287,7 @@ If you have difficulties setting it up, please get in contact with the teaching 
 
 #### 4a. Create a cluster on which to run Jupyter notebook
 
-Refer to [this document](../instructions/jupyter-dataproc.md) to create a Dataproc cluster through the Google Cloud Console.
+Refer to [this document](../../instructions/jupyter-dataproc.md) to create a Dataproc cluster through the Google Cloud Console.
 
 Use the following command to create a Dataproc cluster with Jupyter notebook:
 
