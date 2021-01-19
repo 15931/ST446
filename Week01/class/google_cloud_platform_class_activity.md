@@ -280,14 +280,16 @@ gsutil rm -r gs://<bucket_name>
 In this section, we will set up a dataproc cluster for PySpark and connect it to a Jupyter notebook.
 Please try to get it to run by next week.
 
-The following instructions worked for me on MacOS with chrome: [Section: Create a cluster and install the Jupyter component](https://cloud.google.com/dataproc/docs/tutorials/jupyter-notebook), you can also find the steps for 
+The following instructions worked on MacOS with Chrome: [Section: Create a cluster and install the Jupyter component](https://cloud.google.com/dataproc/docs/tutorials/jupyter-notebook). You can also find the steps for 
 Windows and Linux.
-If you have difficulties setting it up, please get in contact with the teaching assistant.
 
+If you have difficulties setting it up, please get in contact with the teaching assistant.
 
 #### 4a. Create a cluster on which to run Jupyter notebook
 
-Use the following comand to create a Dataproc cluster with Jupyter notebook
+Refer to [this document](../instructions/jupyter-dataproc.md) to create a Dataproc cluster through the Google Cloud Console.
+
+Use the following command to create a Dataproc cluster with Jupyter notebook:
 
 ```
 gcloud beta dataproc clusters create cluster-name \
