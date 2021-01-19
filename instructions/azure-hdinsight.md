@@ -57,19 +57,19 @@ You can go through the remaining items (Disks, Networking etc) to check which co
 
 To create an HDInsight cluster, click on **Analytics** (left panel), then **See all**, and then search for *Azure HDInsight*.
 
-![hdinsight-creation1](./figs/hdinsight-1.png)
+<img src="./figs/hdinsight-1.png" width=750>
 
 You need to check if your Free Trial registration is registered to use HDInsight. By default, it is not. To enable the use of HDInsight, click on **Click here to register**. 
 
-![hdinsight-creation1](./figs/hdinsight-2.png)
+<img src="./figs/hdinsight-2.png" width=750>
 
 This will lead you to the Free Trial Resource Providers page. Search for *HDInsight*, click on **Register** and wait for the registration to the service. You will see a message "Deployment is in progress". This will take some minutes! 
 
-![hdinsight-creation1](./figs/hdinsight-3.png)
+<img src="./figs/hdinsight-3.png" width=750>
 
 If the page freezes while showing the “Registering…” message, you can refresh the page or click on **Resource Providers** (left panel) to check whether your registration was completed.
 
-![hdinsight-creation1](./figs/hdinsight-4.png)
+<img src="./figs/hdinsight-4.png" width=750>
 
 For the remaining of this experimentation, refer to the tutorials below and follow the instructions to create your HDInsight cluster and run some SQL commands using Spark. Before that, have a look on the following notes:
 
@@ -77,7 +77,7 @@ For the remaining of this experimentation, refer to the tutorials below and foll
 
 **Note on cluster access** - once your HDInsight cluster is created, you will see a confirmation page. Click on **Go to Resource** to access the information on your new cluster. On the new page, you will see an URL providing access to your new cluster using the login credentials you have recorded during the creation process.
 
-![hdinsight-creation1](./figs/hdinsight-6.png)
+<img src="./figs/hdinsight-6.png" width=750>
 
 **Note on cleaning up resources** - you do not need to clean up the resources (cluster and resource group) when moving from one tutorial to another, but remember of doing that before closing your session to save your credits.
 
