@@ -1,7 +1,7 @@
 **ST446 Distributed Computing for Big Data - LT 2020-2021**
 
 # Launching a jupyter/PySpark notebook on a Amazon Web Services (AWS) EMR cluster
-Note: This is only for those who have problems to access Google Cloud Platform (GCP). EMR from AWS plays similar roles as dataproc from GCP. You can follow the following steps to launch a jupyter/PySpark note book on a AWS EMR cluster.
+Note: This is only for those who have problems to access Google Cloud Platform (GCP). EMR from AWS plays similar roles as dataproc from GCP. You can follow the following steps to launch a jupyter/PySpark notebook on a AWS EMR cluster.
 
 1, Create an AWS account and sign in to the console. (Note: you need to provide credit card details to create an account.)
 
