@@ -25,8 +25,6 @@ Before the class, please try do the following:
 
 Read the preparation part in [google_cloud_platform_class_activity.md](google_cloud_platform_class_activity.md) and install the Google Cloud SDK on your computer. You should also familiarise yourself with the Google Cloud Console. You do NOT need to give GCP your own bank account or start the free trial.
 
-[](Once you join the st446-students Google group, you should automatically have access to some GCP projects)
-
 If you have any problems with installations, please get in touch with [the teaching staff or fellow students](mailto:m.e.barreto@lse.ac.uk) to get help.
 
 ## 0.2 Command line examples (before class)
