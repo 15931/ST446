@@ -4,7 +4,7 @@
 
 This week, we look at how to use the Google Cloud Platform (GCP) to run code remotely.
 
-Throughout the module, we will try to use GCP to learn how to use clusters and make use of distributed computing. We advise you to proceed as follows:
+Throughout the module, we will use GCP to learn how to use clusters and make use of distributed computing. We advise you to proceed as follows:
 
 * If you have problems accessing GCP, try the [LSE Remote Desktop](https://desktop.lse.ac.uk/). There are some [guidelines here](https://info.lse.ac.uk/staff/divisions/academic-registrars-division/systems/Remote-access).
 
@@ -18,7 +18,7 @@ General notes:
 * Windows users may also find the following resource useful: [Windows Sysinternals](https://docs.microsoft.com/en-us/sysinternals/).
 
 ## Note on billing
-When using the Google Cloud Platform (GCP), please always delete your compute engines/clusters and buckets after you are done, otherwise unnecessary cost can be incurred.
+When using GCP, please always delete your compute engines/clusters and buckets after you are done, otherwise unnecessary cost can be incurred.
 
 ## 0.1 Preparation (before class)
 Before the class, please try do the following:
@@ -40,22 +40,22 @@ If you prefer to use the Windows command line rather than Powershell, you may fi
 
 We recommend that you focus on the first two documents.
 
-* file manipulation: [basic_command_file_system_example.md](basic_command_file_system_example.md)
-* system admin: [basic_command_system_example.md](basic_command_system_example.md)
-* downloads from internet: [basic_command_download_example.md](basic_command_download_example.md)
-* network admin: [basic_command_network.md](basic_command_network.md)
+* File manipulation: [basic_command_file_system_example.md](basic_command_file_system_example.md)
+* System admin: [basic_command_system_example.md](basic_command_system_example.md)
+* Downloads from internet: [basic_command_download_example.md](basic_command_download_example.md)
+* Network admin: [basic_command_network.md](basic_command_network.md)
 
 We will also cover [basic_command_file_system_example.md](basic_command_file_system_example.md) in class.
 
 ## 1. GCP: getting started (in class)
 This is the in-class activity for this week.
 
-Go to [google_cloud_platform_class_activity.md](google_cloud_platform_class_activity.md). Follow the instructions in section 1 - 3 to upload files, create a cluster and submit jobs to google cloud.
+Go to [google_cloud_platform_class_activity.md](google_cloud_platform_class_activity.md). Follow the instructions in Section 1 - 3 to upload files, create a cluster and submit jobs to google cloud.
 
 Please make sure to **delete the cluster and bucket afterwards**.
 
 ## 2. Jupyter notebooks with GCP (in class, if you have time, or optional homework)
-For next week, please have a look at section 4 of the document [google_cloud_platform_class_activity.md](google_cloud_platform_class_activity.md).
+For next week, please have a look at Section 4 of the document [google_cloud_platform_class_activity.md](google_cloud_platform_class_activity.md).
 Please try to follow the instructions and let us know, if you run into problems.
 
 In addition, please look at the README file in the week02/class directory and try to follow the preparation steps for the next class.
