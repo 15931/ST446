@@ -25,6 +25,6 @@
    * Project submission deadline Apr 30
 
 * **Using Google Cloud Platform**
-   * Add information here about allocation of coupons
+   * Students were sent an email on 20 January 2021 with instructions on how to redeem their coupons.
 
 Add information about project marking criteria
