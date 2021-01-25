@@ -208,4 +208,3 @@ Note: don't run this while your perform this exercise (you need Hadoop daemons u
 **References**:
 * [Install Apache Hadoop on Mac OS Sierra](https://www.slideshare.net/SunilkumarMohanty3/install-apache-hadoop-on-mac-os-sierra-76275019)
 * [Hadoop: Setting up a Single Node Cluster](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html)
-* [Hadoop in OSX El-Capitan](https://dtflaneur.wordpress.com/2015/10/02/installing-hadoop-on-mac-osx-el-capitan/)
