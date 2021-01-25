@@ -26,12 +26,12 @@ gcloud beta dataproc clusters create jialin-cluster --optional-components=ANACON
 
 Hadoop resource can be checked via the Web UI. To do this, you can go to the GCP console page and navigate to `Dataproc - Clusters` as we did to open jupyter notebook last week.
 
-<img src="../figs/google_dataproc.png" style="width: 1000px;" alt="googledataproc">
+<img src="./figs/google_dataproc.png" style="width: 1000px;" alt="googledataproc">
 
-<img src="../figs/google_hadoop_UI.png" style="width: 1000px;" alt="googlehadoopUI">
+<img src="./figs/google_hadoop_UI.png" style="width: 1000px;" alt="googlehadoopUI">
 
 Clicking on `Utilities - Browse the file system`, we will see
-<img src="../figs/hadoop_namenode.png" style="width: 1000px;" alt="hadoopnamenode">
+<img src="./figs/hadoop_namenode.png" style="width: 1000px;" alt="hadoopnamenode">
 
 Once you have stablished that you can run a dataproc cluster with hadoop, please delete it using the commands from last week. (DO IT when the class ends!)
 
@@ -42,7 +42,7 @@ Once you have stablished that you can run a dataproc cluster with hadoop, please
 
 To access the dataproc cluster, click Resources -> Computer Engines. Go to VM instances tab, and you will see several VM instances like in the following picture.
 
-<img src="../figs/dataproc.png" style="width: 1000px;" alt="dataproc">
+<img src="./figs/dataproc.png" style="width: 1000px;" alt="dataproc">
 
 Clicking on the `SSH` will open a Linux terminal, which you have seen before.
 
