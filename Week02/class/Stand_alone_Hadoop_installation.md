@@ -195,7 +195,7 @@ You should make sure you have the DataNode. If you cannot find it, take a look h
 
 For NameNode Web UI: [http://localhost:50070](http://localhost:50070)
 
-<img src="../figs/hadoop-browsefiles.png" style="width: 1000px;" alt="Hadoop file browsing">
+<img src="./figs/hadoop-browsefiles.png" style="width: 1000px;" alt="Hadoop file browsing">
 
 For YARN Web UI: [http://localhost:8088](http://localhost:8088)
 
