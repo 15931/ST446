@@ -4,7 +4,7 @@ The instructions provided below here are for Hadoop 2.x installation on Mac OS S
 
 * You can download hadoop from here: http://www.apache.org/dyn/closer.cgi/hadoop/common/
 * For Windows users: 
-* [How to install Apache Hadoop on windows 10](https://www.datasciencecentral.com/profiles/blogs/how-to-install-and-run-hadoop-on-windows-for-beginners). 
+* [How to install Apache Hadoop on Windows 10](https://www.datasciencecentral.com/profiles/blogs/how-to-install-and-run-hadoop-on-windows-for-beginners). 
 * [Hadoop 2 on Windows](https://wiki.apache.org/hadoop/Hadoop2OnWindows)
 
 We also encourage you to collaborate with your peers (for example, with your peers using a Windows system, if you use a laptop running a Windows operating system). We also encourage you to make a record of any different steps you needed to make in order to get your installation working in your designated GitHub repo, so we can share knowledge.
