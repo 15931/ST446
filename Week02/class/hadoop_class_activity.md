@@ -13,18 +13,19 @@ In this class exercise, you will:
 # 0. Preparation (pre class)
 Please try to complete this section before class.
 
-Google cloud platform dataproc is a fast, easy-to-use, fully-managed cloud service for running Apache Spark and Apache Hadoop clusters in a simple, cost-efficient way.
-During last week's class, we have already learned how to set up a dataproc cluster. This type of cluster comes with Hadoop installed.
+Google Cloud Platform Dataproc is a fast, easy-to-use, fully-managed cloud service for running Apache Spark and Apache Hadoop clusters in a simple, cost-efficient way.
+
+During last week's class, we have already learned how to set up a Dataproc cluster. This type of cluster comes with Hadoop installed.
 
 Before the class, please try to follow these steps.
 
-Set up a dataproc cluster as discussed last week. To avoid following the same steps again, it is a good idea to use and save gcloud terminal commands.
+Set up a Dataproc cluster as discussed last week. To avoid following the same steps again, it is a good idea to use and save *gcloud* terminal commands.
 
 ```
 gcloud beta dataproc clusters create jialin-cluster --optional-components=ANACONDA,JUPYTER     --image-version=1.3     --enable-component-gateway  --bucket jialin-bucket --project st446-lent
 ```
 
-Hadoop resource can be checked via the Web UI. To do this, you can go to the GCP console page and navigate to `Dataproc - Clusters` as we did to open jupyter notebook last week.
+Hadoop resource can be checked via the Web UI. To do this, you can go to the GCP console page and navigate to `Dataproc - Clusters` as we did to open Jupyter notebook last week.
 
 <img src="./figs/google_dataproc.png" style="width: 1000px;" alt="googledataproc">
 
@@ -33,20 +34,20 @@ Hadoop resource can be checked via the Web UI. To do this, you can go to the GCP
 Clicking on `Utilities - Browse the file system`, we will see
 <img src="./figs/hadoop_namenode.png" style="width: 1000px;" alt="hadoopnamenode">
 
-Once you have stablished that you can run a dataproc cluster with hadoop, please delete it using the commands from last week. (DO IT when the class ends!)
+Once you have stablished that you can run a Dataproc cluster with Hadoop, please delete it using the commands from last week. **(DO IT when the class ends!)**
 
 
 # 1. HDFS (in class)
 
 ### Connect to remote host
 
-To access the dataproc cluster, click Resources -> Computer Engines. Go to VM instances tab, and you will see several VM instances like in the following picture.
+To access the Dataproc cluster, click *Resources -> Computer Engines*. Go to VM instances tab, and you will see several VM instances like in the following picture.
 
 <img src="./figs/dataproc.png" style="width: 1000px;" alt="dataproc">
 
 Clicking on the `SSH` will open a Linux terminal, which you have seen before.
 
-Note that you can either use the terminal that opens up in a browser window, if you click SSH, or copy the terminal command from `View gcloud command` and ssh into the VM from your own terminal. Both worked for me (Jialin).
+Note that you can either use the terminal that opens up in a browser window, if you click SSH, or copy the terminal command from `View gcloud command` and ssh into the VM from your own terminal. Both should work.
 
 ```
 (base) LSE021353-2:~ st446$ gcloud beta compute --project "st446-lent" ssh --zone "europe-west2-a" "jialin-cluster-m"
