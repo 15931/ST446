@@ -353,7 +353,8 @@ Once your `.java` file is on the GCP VM, you can execute the following commands 
 ### Compile the java code
 
 First do the following
-`export HADOOP_CLASSPATH=/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar`.
+<!--- `export HADOOP_CLASSPATH=/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar`. -->
+`export HADOOP_CLASSPATH=/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/lib/tools.jar`.
 
 You should be inside the directory that contains `AuthorsJob.java`.
 Ignore the warnings that the java compiler yields.
@@ -361,7 +362,7 @@ Ignore the warnings that the java compiler yields.
 Then you can run the following code to create all the required java files.
 
 ```
-st446@jialin-cluster-m:~$ export HADOOP_CLASSPATH=/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar
+st446@jialin-cluster-m:~$ export HADOOP_CLASSPATH=/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/lib/tools.jar
 st446@jialin-cluster-m:~$ hadoop com.sun.tools.javac.Main AuthorsJob.java
 Note: AuthorsJob.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
