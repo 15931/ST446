@@ -20,11 +20,11 @@ General notes:
 ## Note on billing
 When using GCP, please always delete your compute engines/clusters and buckets after you are done, otherwise unnecessary cost can be incurred.
 
-## Note on starting and stopping clusters (added on 27/01/2021)
+## Note on starting and stopping clusters (added on 27/01/2021 - thanks to Daniel Jones)
 
-From [GCP documentation](https://cloud.google.com/dataproc/docs/guides/dataproc-start-stop#:~:text=After%20you%20create%20a%20cluster,with%20the%20same%20configuration%20later.): *After you create a cluster, you can stop it, then restart it when you need it. Stopping an idle cluster avoids incurring charges and avoids the need to delete an idle cluster, then create a cluster with the same configuration later.
+From [GCP documentation](https://cloud.google.com/dataproc/docs/guides/dataproc-start-stop#:~:text=After%20you%20create%20a%20cluster,with%20the%20same%20configuration%20later.): *After you create a cluster, you can stop it, then restart it when you need it. Stopping an idle cluster avoids incurring charges and avoids the need to delete an idle cluster, then create a cluster with the same configuration later.*
 
-Stopping a cluster stops all cluster Compute Engine VMs. You do not pay for these VMs while they are stopped. However, you continue to pay for any associated cluster resources, such as persistent disks.*
+*Stopping a cluster stops all cluster Compute Engine VMs. You do not pay for these VMs while they are stopped. However, you continue to pay for any associated cluster resources, such as persistent disks.*
 
 ## 0.1 Preparation (before class)
 Before the class, please try do the following:
