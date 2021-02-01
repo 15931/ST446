@@ -1,7 +1,5 @@
 # ST446 projects
 
-# ST449 projects
-
 ## Project marking rubrics:
 
 <img src="https://github.com/lse-st446/lectures2021/blob/main/images/ST446-final-coursework-rubric.png"></img>
