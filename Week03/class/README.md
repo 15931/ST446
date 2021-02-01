@@ -1,4 +1,4 @@
-**ST446 Distributed Computing for Big Data**, LT 2020
+**ST446 Distributed Computing for Big Data**, LT 2021
 
 # Seminar class 3
 
@@ -13,7 +13,7 @@ As a rule of thumb, Spark is suitable for real-time/stream processing when a lot
 Before the class, please do the following:
 
 
-1. Make sure you have hadoop ready (and in particular that you know how to get it to run on GCP, see [hadoop_class_activity.md](../../week02/class/hadoop_class_activity.md)).
+1. Make sure you have hadoop ready (and in particular that you know how to get it to run on GCP, see [hadoop_class_activity.md](../../Week02/class/hadoop_class_activity.md)).
 
 2. (This is optional, as we will be using GCP. Clearly, if you use your own computer, you will not be able to take advantage of distributing computations between multiple machines.) If you would like to install PySpark on your computer please read [InstallingSpark.pdf](InstallingSpark.pdf), follow the installation instructions and test if your installation is successful.
 The document suggests multiple ways to download PySpark. The easiest way should be to download the pre-built version from https://spark.apache.org/downloads.html. Because some of the information from [InstallingSpark.pdf](InstallingSpark.pdf) may not be up-to-date, please also check https://spark.apache.org/docs/latest/index.html.  
@@ -21,7 +21,7 @@ If you can't manage to install PySpark and you are using Java9, you may try to u
 
 ## 1. Running MapReduce on Hadoop using python (in class)
 
-Read [word_count_python.md](word_count_python.md) and follow the instructions to run the same map reduce job that we ran [last week](../../week02/class/hadoop_class_activity.md).
+Read [word_count_python.md](word_count_python.md) and follow the instructions to run the same map reduce job that we ran [last week](../../Week02/class/hadoop_class_activity.md).
 
 ## 2. Introduction to PySpark and RDD (in class)
 
