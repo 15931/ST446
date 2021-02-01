@@ -2,7 +2,7 @@
 
 ## Seminar class 3: MapReduce using Python
 
-In this exercise, we learn how to run MapReduce jobs in Hadoop with map and reduce functions written in Python using the Hadoop Streaming API.
+In this exercise, we learn how to run MapReduce jobs in Hadoop with *map()* and *reduce()* functions written in Python using the Hadoop Streaming API.
 
 ## 0. Background
 
@@ -10,7 +10,7 @@ In this exercise, we learn how to run MapReduce jobs in Hadoop with map and redu
 
 [DBLP](https://dblp.uni-trier.de/) is a computer science bibliography website. (Translate: Aha! It's a dataset about the computer scientists publication records)
 
-![milan](./figs/jeff.png)
+<!--- ![milan](./figs/jeff.png) -->
 
 How large is it?
 
@@ -27,22 +27,21 @@ You: "Yeah...well...basically...."
 
 A job-saver question: given many publication records, can we count the number of publications for each of the author?
  
-
 We use the same dataset `author-large.txt` we used in our last week class exercise and show it how to save our jobs using `Hadoop` and `PySpark`
 
 ## 1. Writing map and reduce functions in Python
 
-Download [myAggregatorForKeyCount.py](myAggregatorForKeyCount.py) and [modelReduce.py](modelReduce.py). Open these files and try to read and understand the code. What do does it do?
+Download [myAggregatorForKeyCount.py](myAggregatorForKeyCount.py) and [modelReduce.py](modelReduce.py). Open these files and try to read and understand the code. What does it do?
 
 Source: [Hadoop_Aggregate_Package](https://hadoop.apache.org/docs/current/hadoop-streaming/HadoopStreaming.html#Hadoop_Aggregate_Package)
 
-Set up a dataproc cluster, ssh into the mater node and copy the python files into the (remote) directory that you would like to work in.
+Set up a Dataproc cluster, SSH into the master node and copy the Python files into the (remote) directory that you would like to work in.
 
-An easy way to copy files onto the cluster's home directory is by using a bucket. (see the class tutorial in Week 1)
+An easy way to copy files onto the cluster's home directory is by using a bucket. See the [class tutorial in Week 1](../../Week01/class/google_cloud_platform_class_activity.md).
 
 ## 2. Checking the map and reduce functions by running them from a command line
 
-Before we test the code, we should make sure `myAggregatorForKeyCount.py` and `modelReduce.py` are executable. You can check this using `ls -al`.
+Before we test the code, we should make sure `myAggregatorForKeyCount.py` and `modelReduce.py` are executable. You can check this using `ls -la`.
 
 ```
 st446@jialin-cluster-m:~$ ls -l
@@ -51,13 +50,13 @@ total 8
 -rw-r--r-- 1 st446 st446  435 Feb  6 19:56 myAggregatorForKeyCount.py
 ```
 
-If the permission of these two files indicates it is not executable. Right permission should be `-rwxr-xr-x`, run:
+If the permission of these two files indicates they are not executable (right permission should be `-rwxr-xr-x`), run:
 
 ```
 st446@jialin-cluster-m:~$ chmod a+x *.py
 ```
 
-Now we have the right permission
+Now they have the right permission
 
 ```
 st446@jialin-cluster-m:~$ ls -l
@@ -73,7 +72,7 @@ st446@jialin-cluster-m:~$ wget http://webdam.inria.fr/Jorge/files/author-large.t
 ```
 
 
-Next, we test the python code for the __map__ step via the following command:
+Next, we test the Python code for the __map__ step via the following command:
 
 ```
 st446@jialin-cluster-m:~$ cat author-large.txt | ./myAggregatorForKeyCount.py > intermediate.txt
@@ -90,7 +89,8 @@ LongValueSum:Hector Garcia-Molina	1
 LongValueSum:Abraham Silberschatz	1
 ```
 
-Do you understand what this command does? __Answer:__ It creates a tab-separated file with key-value pairs, where the key describes the Author name with some prefix and the value is the integer 1.
+Do you understand what this command does? 
+__Answer:__ It creates a tab-separated file with key-value pairs, where the key describes the Author name with some prefix and the value is the integer 1.
 
 Next, let's sort the output of the map step (takes some time):
 
@@ -109,7 +109,7 @@ LongValueSum:. Glat	1
 LongValueSum:. K. Co	1
 ```
 
-Now, we use `modelReduce.py` to execute a __reduce__ step without making use of distributed computing. Note that when using hadoop, we will use a built-in reducer (again, it takes some time).
+Now, we use `modelReduce.py` to execute a __reduce__ step without making use of distributed computing. Note that when using Hadoop, we will use a built-in reducer (again, it takes some time).
 
 ```
 st446@jialin-cluster-m:~$ cat author-large.txt | ./myAggregatorForKeyCount.py | sort -k1,1 | ./modelReduce.py > output.txt
@@ -139,13 +139,12 @@ st446@jialin-cluster-m:~$ find $HADOOP_HOME -type f | grep streaming | grep jar
 ```
 Then you will get the path to the `jar` file: `/usr/lib/hadoop-mapreduce/hadoop-streaming-2.9.2.jar`
 
-
 Again, you should be able to understand the commands above.
 
-Create a `dblp` folder, move the `author-large.txt` to the folder and copy the  folder into the Hadoop file system, if you haven't done so yet.
+Create a `dblp` folder, move the `author-large.txt` to the folder and copy the folder into the Hadoop file system, if you haven't done so yet.
 (`hadoop fs -put dblp /dblp`)
 
-Now, you may run the MapReduce job on Hadoop using the following command (you may need to change the path to the right jar file found earlier):
+Now, you may run the MapReduce job on Hadoop using the following command (**you may need to change the path to the right jar file found earlier**):
 
 ```
 hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming-2.9.2.jar \
@@ -281,7 +280,8 @@ st446@jialin-cluster-m:~$ ls part* -al
 -rw-r--r-- 1 st446 st446 1410020 Feb  6 20:34 part-00006
 ```
 
-Why are there seven parts? __Answer:__ Because there were seven reducers.
+Why are there seven parts? 
+__Answer:__ Because there were seven reducers.
 
 Check that the output is the same output that you previously computed:
 
@@ -473,4 +473,5 @@ A-Imam Al-Sammak	1
 A-Nasser Ansari	5
 ```
 
-Do you think that for the given file size it made sense to use hadoop? __Answer:__ Probably not, as running the python commands from the terminal was faster than running the hadoop streaming jobs.
+Do you think that for the given file size it made sense to use Hadoop? 
+__Answer:__ Probably not, as running the Python commands from the terminal was faster than running the Hadoop streaming jobs.
