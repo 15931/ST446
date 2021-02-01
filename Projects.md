@@ -1,6 +1,13 @@
 # ST446 projects
 
-## Project topics and expectations
+# ST449 projects
+
+## Project marking rubrics:
+
+<img src="https://github.com/lse-st446/lectures2021/blob/main/images/ST446-final-coursework-rubric.png"></img>
+
+
+## Project topics
  
 Your project should demonstrate an understanding of concepts, methods and technologies in the area of distributed computing for big data and how to apply them. 
 This should involve using knowledge acquired in the course and building on this knowledge through an independent study to go more deeply into a specific subject. 
