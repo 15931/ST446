@@ -2,13 +2,14 @@
 
 # Seminar class 3
 
-This week, we will look at using Hadoop and PySpark for MapReduce type computations (for example on GCP). This will allow us to better understand the differences between the two.
+This week we will look at using Hadoop and PySpark for MapReduce type computations. This will allow us to better understand the differences between these two distributed execution engines.
 
-TO DO: Pregel (week 5)....
+Hadoop was covered in [Week 2](../../Week02/class/XXX). [Spark](https://spark.apache.org/) is a fast, general purpose framework for data processing on clusters and can sit on top of different file systems. It uses in-memory processing and resilient distributed datasets (RDD).
 
-[Spark](https://spark.apache.org/) is a fast, general purpose framework for data processing on clusters and can sit on top of different file systems. It uses in-memory processing and resilient distributed datasets (RDD).
+As a rule of thumb, Spark is suitable for real-time/stream processing when a lot of memory (RAM) is available, whereas Hadoop is suited to batch processing on commodity hardware.
 
-As a rule of thumb, Spark is suitable for real-time/stream processing when a lot of RAM is available, whereas Hadoop is suited to batch processing on commodity hardware.
+The lecture material from this week also introduces the [Pregel](https://blog.acolyer.org/2015/05/26/pregel-a-system-for-large-scale-graph-processing/
+) computation model. It is intended for iterative graph processing, which will be the topic of Week 5.
 
 ## 0. Preparation (before class)
 
