@@ -59,6 +59,8 @@ The solution will be available next class.
 * [A Beginners Introduction into MapReduce](https://towardsdatascience.com/a-beginners-introduction-into-mapreduce-2c912bb5e6ac).
 * [Map, filter and reduce in Python with examples](https://stackabuse.com/map-filter-and-reduce-in-python-with-examples/).
 * [Your First Map Reduce—Using Hadoop with Python and OSX](https://medium.com/@rrfd/your-first-map-reduce-using-hadoop-with-python-and-osx-ca3b6f3dfe78).
+
+* Paper: [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf).
 * [Spark RDD (Low Level API) Basics using Pyspark](https://medium.com/analytics-vidhya/spark-rdd-low-level-api-basics-using-pyspark-a9a322b58f6).
 * [Using RDD for Creating Applications in Apache Spark Tutorial](https://www.simplilearn.com/using-rdd-for-creating-applications-in-spark-tutorial-video).
 
