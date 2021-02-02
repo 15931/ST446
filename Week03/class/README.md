@@ -4,27 +4,25 @@
 
 This week we will look at using Hadoop and PySpark for MapReduce type computations. This will allow us to better understand the differences between these two distributed execution engines.
 
-Hadoop was covered in [Week 2](../../Week02/class/XXX). [Spark](https://spark.apache.org/) is a fast, general purpose framework for data processing on clusters and can sit on top of different file systems. It uses in-memory processing and resilient distributed datasets (RDD).
+Hadoop was covered in [Week 2](../../Week02/class/hadoop_class_activity.md). PySpark is a Python API for using [Spark](https://spark.apache.org/), a fast, general purpose framework for data processing on clusters that sit on top of different file systems. It uses in-memory processing and resilient distributed datasets (RDD).
 
 As a rule of thumb, Spark is suitable for real-time/stream processing when a lot of memory (RAM) is available, whereas Hadoop is suited to batch processing on commodity hardware.
 
-The lecture material from this week also introduces the [Pregel](https://blog.acolyer.org/2015/05/26/pregel-a-system-for-large-scale-graph-processing/
-) computation model. It is intended for iterative graph processing, which will be the topic of Week 5.
+The lecture material from this week also introduces the [Pregel](https://blog.acolyer.org/2015/05/26/pregel-a-system-for-large-scale-graph-processing/) computation model. It is intended for iterative graph processing, which will be the topic of Week 5.
 
 ## 0. Preparation (before class)
 
 Before the class, please do the following:
 
-
 1. Make sure you have Hadoop ready (and in particular that you know how to get it to run on GCP, see [hadoop_class_activity.md](../../Week02/class/hadoop_class_activity.md)).
 
 2. **(This is optional, as we will be using GCP. Clearly, if you use your own computer, you will not be able to take advantage of distributing computations between multiple machines.)**
 
-If you would like to install PySpark on your computer please read [InstallingSpark.pdf](InstallingSpark.pdf), follow the installation instructions and test if your installation is successful.
+* If you would like to install PySpark on your computer please read [InstallingSpark.pdf](InstallingSpark.pdf), follow the installation instructions and test if your installation is successful.
 
-The document suggests multiple ways to download PySpark. The easiest way should be to download the pre-built version from https://spark.apache.org/downloads.html. Because some of the information from [InstallingSpark.pdf](InstallingSpark.pdf) may not be up-to-date, please also check https://spark.apache.org/docs/latest/index.html.  
+* The document suggests multiple ways to download PySpark. The easiest way should be to download the pre-built version from https://spark.apache.org/downloads.html. Because some of the information from [InstallingSpark.pdf](InstallingSpark.pdf) may not be up-to-date, please also check https://spark.apache.org/docs/latest/index.html.  
 
-**(This is from Lent Term 2020)** If you can't manage to install PySpark and you are using Java9, you may try to use use Java8 instead. This is because PySpark may not be compatible with Java9. Check your Java version by ```java -version```. If you are currently using Java9, you can either uninstall Java9, or you can force your computer to use Java8 by changing the PATH variable in "~/.bash_profile"
+* **(This is from Lent Term 2020)** If you can't manage to install PySpark and you are using Java9, you may try to use use Java8 instead. This is because PySpark may not be compatible with Java9. Check your Java version by ```java -version```. If you are currently using Java9, you can either uninstall Java9, or you can force your computer to use Java8 by changing the PATH variable in "~/.bash_profile"
 
 ## 1. Running MapReduce on Hadoop using Python (in class)
 
