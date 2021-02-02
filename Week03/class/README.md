@@ -4,6 +4,8 @@
 
 This week, we will look at using Hadoop and PySpark for MapReduce type computations (for example on GCP). This will allow us to better understand the differences between the two.
 
+TO DO: Pregel (week 5)....
+
 [Spark](https://spark.apache.org/) is a fast, general purpose framework for data processing on clusters and can sit on top of different file systems. It uses in-memory processing and resilient distributed datasets (RDD).
 
 As a rule of thumb, Spark is suitable for real-time/stream processing when a lot of RAM is available, whereas Hadoop is suited to batch processing on commodity hardware.
