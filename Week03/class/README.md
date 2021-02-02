@@ -8,7 +8,7 @@ Hadoop was covered in [Week 2](../../Week02/class/hadoop_class_activity.md). PyS
 
 As a rule of thumb, Spark is suitable for real-time/stream processing when a lot of memory (RAM) is available, whereas Hadoop is suited to batch processing on commodity hardware.
 
-The lecture material from this week also introduces the [Pregel](https://blog.acolyer.org/2015/05/26/pregel-a-system-for-large-scale-graph-processing/) computation model. It is intended for iterative graph processing, which will be the topic of Week 5.
+The lecture material from this week also introduces the [Pregel](https://dl.acm.org/doi/10.1145/1807167.1807184) computation model. It is intended for iterative graph processing, which will be the topic of Week 5.
 
 ## 0. Preparation (before class)
 
