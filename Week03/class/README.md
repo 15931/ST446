@@ -51,4 +51,12 @@ Hint:
 ### 3.2. Sort the word count output
 Once your have successfully run the word count on PySpark, sort the output using Pyspark code. Show the 30 authors that appear most frequently in `author-large.txt`.
 
-The solution will be available next class
+The solution will be available next class.
+
+## Further references
+
+* [Writing An Hadoop MapReduce Program In Python](https://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/).
+* [A Beginners Introduction into MapReduce](https://towardsdatascience.com/a-beginners-introduction-into-mapreduce-2c912bb5e6ac).
+* [Map, filter and reduce in Python with examples](https://stackabuse.com/map-filter-and-reduce-in-python-with-examples/).
+* [Your First Map Reduce—Using Hadoop with Python and OSX](https://medium.com/@rrfd/your-first-map-reduce-using-hadoop-with-python-and-osx-ca3b6f3dfe78).
+
