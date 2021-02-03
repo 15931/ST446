@@ -193,7 +193,7 @@ LSE021353:~ vojnovic$ jps
 ```
 You should make sure you have the DataNode. If you cannot find it, take a look here: https://stackoverflow.com/questions/10097246/no-data-nodes-are-started
 
-For NameNode Web UI: [http://localhost:50070](http://localhost:50070)
+For NameNode Web UI: you can use [http://localhost:50070](http://localhost:50070) for Hadoop 2.x or [http://localhost:9870](http://localhost:9870) for Hadoop 3.x.
 
 <img src="./figs/hadoop-browsefiles.png" style="width: 1000px;" alt="Hadoop file browsing">
 
