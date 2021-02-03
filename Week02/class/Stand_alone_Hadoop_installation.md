@@ -1,6 +1,6 @@
 # 0. Preparation: Hadoop installation and configuration
 
-The instructions provided below here are for Hadoop 2.x installation on Mac OS Sierra (10.12.x). Installation on other systems may require some modifications, which you should be able to make by finding relevant information on the web. Here is some references may be useful for you:
+The instructions provided below here are for Hadoop 2.x installation on Mac OS Sierra (10.12.x). Installation on other systems may require some modifications, which you should be able to make by finding relevant information on the Web. Here is some references may be useful for you:
 
 * You can download hadoop from here: http://www.apache.org/dyn/closer.cgi/hadoop/common/
 * For Windows users: 
