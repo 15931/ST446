@@ -301,9 +301,11 @@ You can explicitely specify a transformation by writing your own script. Here we
 
 First upload `hiveMapper.py` and `word_count_reducer.py` to your master node.
 
-Have a look at the two python programs used to understand what's happening!
+Have a look at the two Python programs used to understand what's happening!
 
-Then run the following SQL codes in the Hive shell.
+Then upload the file `hive-map-reduce.sql` to your master node. This file contains the following SQL commands:
+
+
 
 ```
 USE dblp;
@@ -331,10 +333,9 @@ INSERT OVERWRITE TABLE word_count
 
 select * from word_count order by count desc limit 20;
 ```
-The code is stored in `hive-map-reduce.sql`, upload it to the master node.
+
 Then run the code:
 
-Running the code:
 
 ```
 st446@jialin-cluster-m:~$ hive -f hive-map-reduce.sql 
