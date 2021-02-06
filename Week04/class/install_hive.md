@@ -3,7 +3,7 @@
 
 This document gives step-by-step instructions for how to install Hive which we tested on Mac OS systems.
 
-Note for Windows users: you may follow installation instructions available online (e.g. see [here](https://www.zymr.com/hive-installation-windows-7/)). Alternatively, you may use a docker container (e.g. see [here](https://github.com/big-data-europe/docker-hive)) or run Hive on Google Cloud Platform (see [here](https://cloud.google.com/sdk/gcloud/reference/beta/dataproc/jobs/submit/hive)). We encourage you to liaise with your peers who also work with a Windows system to try find a working solution. Please share with us what you found out to work best for you.
+Note for Windows users: you may follow installation instructions available online (for [Windows 7](https://www.zymr.com/hive-installation-windows-7/) and for [Windows 10](https://kontext.tech/column/hadoop/291/apache-hive-300-installation-on-windows-10-step-by-step-guide)). Alternatively, you may use a docker container (e.g. see [here](https://github.com/big-data-europe/docker-hive)) or run Hive on Google Cloud Platform (see [here](https://cloud.google.com/sdk/gcloud/reference/beta/dataproc/jobs/submit/hive)). We encourage you to liaise with your peers who also work with a Windows system to try find a working solution. Please share with us what you found out to work best for you.
 
 ## 1. Install Hive
 
