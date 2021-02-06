@@ -43,14 +43,6 @@ drwxr-xr-x 6 st446 st446     4096 Feb 13 14:55 ..
 drwxr-xr-x 2 st446 st446     4096 Feb 13 14:55 __MACOSX
 -rwxr--r-- 1 st446 st446    92514 Feb  4  2017 README.docx
 ```
-If you run `bzip2 -d` command you can unzip the `.bz2` file and use `more` command to see the data records like below:
-
-```
-1475378205	80	760af029f8c65f0b	09c61dc484e184c6	9374d216	71cf2dc9	6	d9ac464b	c0ff2d8e	44e830f8	bef209c1	cdb6761b	a26f9a59	1	1
-1475378205	1025	760af029f8c65f0b	8e61d7f1179f6938	787294ad	8667ecd2	6	d9ac464b	3c52b4d4	44e830f8	6f147a0f	cdb6761b	51cb849f	1	1
-1475378205	2750	760af029f8c65f0b	17e5f88ede51f96f	07ee83bf	53b20ee2	6	d9ac464b	5626c616	44e830f8	cd344ef1	cdb6761b	d2c039e9	0	0
-1475378235	1500	399a2d8f40ca9903	144bf2176f929625	c41c76b9	89e10f4b	6	d9ac464b	3c52b4d4	cb2b3c29	084daf67	2c9f382f	ccb6f75c	1	1
-```
 
 ## b. Load fbflow data to a Hive table: `hive -f`
 
