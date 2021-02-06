@@ -12,7 +12,7 @@ Reference:
 
 Here, I will call the cluster `jialin-cluster` and the bucket `gs://jialin-bucket`.
 
-* Make sure the `author_large.txt` is in your GCP bucket. If not, copy it to your bucket:
+* Make sure the [author_large.txt](http://webdam.inria.fr/Jorge/files/author-large.txt) is in your GCP bucket. If not, copy it to your bucket:
 
   ```
   gsutil cp [path of author_large.txt] gs://[your bucket name]/data/author_large.txt
