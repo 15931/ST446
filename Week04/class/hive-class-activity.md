@@ -49,7 +49,7 @@ drwxr-xr-x 2 st446 st446     4096 Feb 13 14:55 __MACOSX
 
 The Facebook flows dataset is in the format of a delimiter-separated text file, which can be loaded into a Hive table using the Hive commands given in the script [hive-fbflow.sql](hive-fbflow.sql). 
 
-After uploading the `hive-fbflow.sql` to the cluster machine, you can create a table and load the data by executing the command:
+After uploading the `hive-fbflow.sql` to the cluster machine (see [how to upload files into GCP VMs here](https://cloud.google.com/compute/docs/instances/transfer-files)), you can create a table and load the data by executing the command:
 
 ```
 hive -f hive-fbflow.sql
