@@ -5,7 +5,7 @@
 Reference:
 
 * [Hive on GCP](https://cloud.google.com/sdk/gcloud/reference/beta/dataproc/jobs/submit/hive)
-* [getting-started-with-hive-on-google-cloud-dataproc](http://holowczak.com/getting-started-with-hive-on-google-cloud-dataproc/6/)
+* [Getting started with Hive on Gogle Cloud Dataproc](http://holowczak.com/getting-started-with-hive-on-google-cloud-dataproc/6/)
 
 ## Preparation
 * Create your own cluster and bucket. See [google_cloud_platform_class_activity.md](../../Week01/class/google_cloud_platform_class_activity.md) from week 1 or have a look at the cheatsheet.
