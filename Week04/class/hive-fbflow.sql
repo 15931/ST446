@@ -1,0 +1,27 @@
+CREATE DATABASE IF NOT EXISTS fbflow;
+
+USE fbflow;
+
+DROP TABLE IF EXISTS flows;
+
+CREATE TABLE flows (
+	ts BIGINT,
+	pcktlen INT,
+	srcIP STRING,
+	desIP STRING,
+	srcPort STRING,
+	desPort	STRING,
+	IPproto INT,
+	srcIPprefix STRING,
+	desIPprefix STRING,
+	srcRack	STRING,
+	desRack STRING,
+	srcPod STRING,
+	desPod STRING,
+	intercluster INT,
+	interdatacenter INT
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n';
+
+
+LOAD DATA LOCAL INPATH 'fbflow/10000000_220627975019916_5597249363521830912_n.bz2' INTO TABLE flows;
