@@ -6,7 +6,7 @@ Here, we will look at different ways to load data that comes in different format
 As usual, we will run a simple map-reduce job to count words.
 
 # 1. Load the data
-All the datasets are available from [here](https://www.dropbox.com/sh/89xbpcjl4oq0j4w/AACrbtUzm3oCW1OcpL7BasRfa?dl=0). Please download them to your cluster and save them to a directory as you go where your sql files are before running the commands in this file.
+All the datasets are available from [here](https://www.dropbox.com/sh/89xbpcjl4oq0j4w/AACrbtUzm3oCW1OcpL7BasRfa?dl=0). Please download them to your cluster and save them to a directory as you go where your SQL files are before running the commands in this file.
 
 ## a. Facebook flow dataset
 
