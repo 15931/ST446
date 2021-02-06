@@ -10,7 +10,7 @@ We will also look at Spark Dataframes, which have more structure than RDDs, and 
 
 Before the class, please do the following:
 
-1. Please make sure you have Hadoop and PySpark ready (See [hadoop_class_activity.md](../../week02/class/hadoop_class_activity.md) and [InstallingSpark.pdf](../../week03/class/InstallingSpark.pdf))
+1. Please make sure you have Hadoop and PySpark ready (See [hadoop_class_activity.md](../../Week02/class/hadoop_class_activity.md) and [InstallingSpark.pdf](../../Week03/class/InstallingSpark.pdf))
 
 2. If you would like to use Hive on your own computer, please read [install_hive.md](install_hive.md). Follow it to install Hive and test if your installation is successful.
 
