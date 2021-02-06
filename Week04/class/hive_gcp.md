@@ -4,15 +4,15 @@
 
 Reference:
 
-* [hive on GCP](https://cloud.google.com/sdk/gcloud/reference/beta/dataproc/jobs/submit/hive)
+* [Hive on GCP](https://cloud.google.com/sdk/gcloud/reference/beta/dataproc/jobs/submit/hive)
 * [getting-started-with-hive-on-google-cloud-dataproc](http://holowczak.com/getting-started-with-hive-on-google-cloud-dataproc/6/)
 
 ## Preparation
-* Create your own cluster and bucket. See [google_cloud_platform_class_activity.md](../../week01/class/google_cloud_platform_class_activity.md) from week 1 or have a look at the cheatsheet.
+* Create your own cluster and bucket. See [google_cloud_platform_class_activity.md](../../Week01/class/google_cloud_platform_class_activity.md) from week 1 or have a look at the cheatsheet.
 
 Here, I will call the cluster `jialin-cluster` and the bucket `gs://jialin-bucket`.
 
-* Make sure the `author_large.txt` is in your gcp bucket. If not, copy it to your bucket
+* Make sure the `author_large.txt` is in your GCP bucket. If not, copy it to your bucket:
 
   ```
   gsutil cp [path of author_large.txt] gs://[your bucket name]/data/author_large.txt
@@ -21,14 +21,14 @@ Here, I will call the cluster `jialin-cluster` and the bucket `gs://jialin-bucke
 
 * Please make sure to delete the cluster and bucket after you are done with all of this week's exercises!
 
-## 1. Submit a hive job with a file
+## 1. Submit a Hive job with a file
 
 Here we create a table using [dblp_gcp.q](dblp_gcp.q). 
 
-The first step is to have a look at the file and edit it to reflect your bucket name: replace the `'gs://jialin-bucket/data/';` with your gcp bucket name and folder in which you put `author-large.txt`
+The first step is to have a look at the file and edit it to reflect your bucket name: replace `'gs://jialin-bucket/data/';` with your GCP bucket name and folder in which you put `author-large.txt`
 
 
-Then submit the hive job by running the following commands in terminal of your laptop:
+Then submit the Hive job by running the following commands in terminal of your laptop:
 
 ```
 gcloud beta dataproc jobs submit hive --cluster [your cluster name] --file [path/to/dblp_gcp.q]
@@ -90,7 +90,7 @@ statusHistory:
 submittedBy: jason.yijialin@gmail.com
 ```
 
-## 2. Submit a hive job with a hive command
+## 2. Submit a Hive job with a Hive command
 
 ### `show database` command
 
@@ -146,7 +146,7 @@ submittedBy: jason.yijialin@gmail.com
 ```
 
 ### `select` command
-Next, we show the first 10 rows of the authorlarge table
+Next, we show the first 10 rows of the *authorlarge* table
 
 ```
 (base) LSE021353-2:class st446$ gcloud beta dataproc jobs submit hive --cluster jialin-cluster -e "use dblp; select * from authorlarge limit 10;"
