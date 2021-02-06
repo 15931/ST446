@@ -43,7 +43,7 @@ You may need to change the $HIVE_HOME directory path if it is different in your 
 
 ### c. Create HDFS directories
 
-Turn your hadoop on. Run the following lines to create directories in HDFS and give write permission to the group:
+Turn your Hadoop on. Run the following lines to create directories in HDFS and give write permission to the group:
 ```
 $ hdfs dfs -mkdir -p /user/hive/warehouse
 $ hdfs dfs -mkdir /tmp
