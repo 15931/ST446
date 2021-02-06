@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS dblp;
+
+USE dblp;
+
+DROP TABLE IF EXISTS authorlarge;
+
+CREATE TABLE authorlarge (
+  author STRING,
+  journal STRING,
+  title STRING,
+  year INT
+  )
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t'
+STORED AS TEXTFILE;
+
+LOAD DATA LOCAL INPATH 'author-large.txt' 
+OVERWRITE INTO TABLE authorlarge;
