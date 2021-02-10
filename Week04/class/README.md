@@ -40,6 +40,7 @@ Have a look at this notebook and run it on a cluster [spark-hive-conn.ipynb](spa
 * [Apache Iceberg](https://www.datanami.com/2021/02/08/apache-iceberg-the-hub-of-an-emerging-data-service-ecosystem/) - The Hub of an Emerging Data Service Ecosystem?
 * [Apache Iceberg (Dremio Free Trial)](https://www.dremio.com/data-lake/apache-iceberg/)
 * [Introduction to DataFrames - Databricks](https://docs.databricks.com/spark/latest/dataframes-datasets/introduction-to-dataframes-python.html)
+* [Spark SQL](https://spark.apache.org/sql/)
 
 
 ## Note that there is a formative assignment is coming up. You will receive a GitHub classroom invite via e-mail.
