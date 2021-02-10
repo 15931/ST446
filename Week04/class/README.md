@@ -2,9 +2,9 @@
 
 # Seminar class 4
 
-This week we are looking at Hive, a data warehouse system built on top of Hadoop. You can think of Hive as a collection of software that lets you interact with HDFS storage in an easy, SQL-like manner.
+This week we are looking at [Hive](https://hive.apache.org/), a data warehouse system built on top of Hadoop. You can think of Hive as a collection of software that lets you interact with HDFS storage in an easy, SQL-like manner.
 
-We will also look at Spark Dataframes, which have more structure than RDDs, and can be thought of as two-dimensional arrays/tables.
+We will also look at [Spark Dataframes](https://spark.apache.org/docs/2.3.0/sql-programming-guide.html), which have more structure than RDDs, and can be thought of as two-dimensional arrays/tables.
 
 ## 0. Preparation (before class)
 
@@ -32,5 +32,14 @@ We will walk you through the notebook.
 ## 3. Use Spark with Hive (homework, or in class if you have time.)
 
 Have a look at this notebook and run it on a cluster [spark-hive-conn.ipynb](spark-hive-conn.ipynb). You will learn how to use SQL-like queries.
+
+## References
+
+* [Comparing Apache Hive vs. Spark](https://logz.io/blog/hive-vs-spark/#:~:text=Hive%20and%20Spark%20are%20both,more%20modern%20alternative%20to%20MapReduce.)
+* [System Properties Comparison HBase vs. Hive vs. Spark SQL](https://db-engines.com/en/system/HBase%3BHive%3BSpark+SQL)
+* [Apache Iceberg](https://www.datanami.com/2021/02/08/apache-iceberg-the-hub-of-an-emerging-data-service-ecosystem/) - The Hub of an Emerging Data Service Ecosystem?
+* [Apache Iceberg (Dremio Free Trial)](https://www.dremio.com/data-lake/apache-iceberg/)
+* [Introduction to DataFrames - Databricks](https://docs.databricks.com/spark/latest/dataframes-datasets/introduction-to-dataframes-python.html)
+
 
 ## Note that there is a formative assignment is coming up. You will receive a GitHub classroom invite via e-mail.
