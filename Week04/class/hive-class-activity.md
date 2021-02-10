@@ -121,12 +121,12 @@ Create a table and load the data for the following three other datasets from [he
 * dblp: [`hive-dblp.sql`](hive-dblp.sql) (this one should exist already by now!)
 
 _Hints_:
-These commands might help downloading the `StackExchange` data to your cluster:
+This commands might help downloading the `StackExchange` data to your cluster:
 
 ```
 curl -L -o dropboxdata.zip https://www.dropbox.com/sh/89xbpcjl4oq0j4w/AADH_WaHRE2rpOgkUUSmVmrsa/StackExchange-academic?dl=1 && unzip dropboxdata.zip -d StackExchange
 ```
-change the command accordingly for `webblog` data and `dblp` data, at the end you should have 3 folders containing 3 data sets respectively
+change the command accordingly for `webblog` data and `dblp` data (look at the ST446 folder in Dropbox), at the end you should have 3 folders containing 3 data sets respectively.
 
 ```
 st446@jialin-cluster-m:~$ ls -l
