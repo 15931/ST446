@@ -11,7 +11,7 @@ This week, we will look at data from Stack Exchange. Please have a look at this 
 
 Please run the notebook in a cluster that was initialised as follows. The reason for this is that specific initialisation actions are required to use graphframes.
 
-For `Mac OS` and `Linux` user, please run the following commands in Terminal:
+For `Mac OS` and `Linux` users, please run the following commands in Terminal:
 
 ```
 gcloud dataproc clusters create [your cluster name] --project [your project id] \
@@ -21,7 +21,7 @@ gcloud dataproc clusters create [your cluster name] --project [your project id] 
   --metadata 'PIP_PACKAGES=sklearn nltk pandas graphframes'
 ```
 
-For `Windows` user, please go to the cloud shell provided on your GCP console webpage.
+For `Windows` users, please go to the cloud shell provided on your GCP console webpage.
 1. initialize your gcloud setting by `gcloud init`
 2. set up your region by `gcloud config set dataproc/region europe-west2`
 3. run the same commands used by `Mac OS` and `Linux` users.
