@@ -9,7 +9,7 @@ This week's lecture is about _graph data processing_ in Spark.
 ## Class
 This week, we will look at data from Stack Exchange. Please have a look at this [notebook](ExploreStackexchangeData.ipynb).
 
-Please run the notebook in a cluster that was initialised as follows. The reason for this is that specific initialisation actions are required to use *graphframes*.
+Please run the notebook in a cluster that was initialised as follows. The reason for this is that specific initialisation actions are required to use *Spark GraphFrames*.
 
 For `Mac OS` and `Linux` users, please run the following commands in Terminal:
 
