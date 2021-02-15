@@ -14,11 +14,7 @@ Please run the notebook in a cluster that was initialised as follows. The reason
 For `Mac OS` and `Linux` users, please run the following commands in Terminal:
 
 ```
-gcloud dataproc clusters create [your cluster name] --project [your project id] \
-  --properties=^#^spark:spark.jars.packages=graphframes:graphframes:0.5.0-spark2.1-s_2.11,com.databricks:spark-xml_2.11:0.4.1 \
-  --subnet default --zone europe-west2-a --master-machine-type n1-standard-4 --master-boot-disk-size 500 --num-workers 2 --worker-machine-type n1-standard-4 --worker-boot-disk-size 500 --image-version 1.3-deb9 \
-  --initialization-actions 'gs://dataproc-initialization-actions/jupyter/jupyter.sh','gs://dataproc-initialization-actions/python/pip-install.sh','gs://dataproc-initialization-actions/zookeeper/zookeeper.sh','gs://dataproc-initialization-actions/kafka/kafka.sh' \
-  --metadata 'PIP_PACKAGES=sklearn nltk pandas graphframes'
+gcloud beta dataproc clusters create kaifang-cluster --properties=^#^spark:spark.jars.packages=graphframes:graphframes:0.5.0-spark2.1-s_2.11,com.databricks:spark-xml_2.11:0.4.1 --subnet default --enable-component-gateway --region europe-west2 --zone europe-west2-c --master-machine-type n1-standard-4 --master-boot-disk-size 500 --num-workers 2 --worker-machine-type n1-standard-4 --worker-boot-disk-size 500 --image-version 1.3-debian10 --optional-components ANACONDA,JUPYTER --project st446-2021-lt --metadata 'PIP_PACKAGES=sklearn nltk pandas graphframes'
 ```
 
 For `Windows` users, please go to the cloud shell provided on your GCP console webpage.
