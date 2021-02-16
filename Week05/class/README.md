@@ -12,6 +12,7 @@ This week, we will look at data from Stack Exchange. Please have a look at this 
 Please run the notebook in a cluster that was initialised as follows. The reason for this is that specific initialisation actions are required to use *Spark GraphFrames*.
 
 For `Mac OS` and `Linux` users, please run the following commands in a terminal:
+
 **(remember to define your cluster name and change to your project name, region and zone)**
 
 ```
