@@ -24,7 +24,7 @@ For `Windows` users, please go to the *cloud shell* provided on your GCP Console
 
 ## Homework
 
-Have a look at the section "2. Graph of user co-contributions" in the [notebook](ExploreStackexchangeData.ipynb). Try to fill in the gaps.
+Have a look at the section "2. Graph of user co-contributions" in the [notebook](ExploreStackexchangeData.ipynb). Try to reproduce all the analyzes made in Section 1.
 
 ## References
 
