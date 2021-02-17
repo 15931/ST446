@@ -28,9 +28,10 @@ Have a look at the section "2. Graph of user co-contributions" in the [notebook]
 
 ## References
 
+* [GraphFrames Quick-Start Guide](https://graphframes.github.io/graphframes/docs/_site/quick-start.html)
 * [Graph analysis tutorial with GraphFrames](https://docs.databricks.com/spark/latest/graph-analysis/graphframes/graph-analysis-tutorial.html).
+* * [Introducing GraphFrames](https://databricks.com/blog/2016/03/03/introducing-graphframes.html).
 * [An introduction to Spark GraphFrame with examples analyzing the Wikipedia link graph](https://towardsdatascience.com/an-introduction-to-spark-graphframe-with-examples-analyzing-the-wikipedia-link-graph-67e58c20a107).
-* [Introducing GraphFrames](https://databricks.com/blog/2016/03/03/introducing-graphframes.html).
 * [On-Time Flight Performance with GraphFrames for Apache Spark](https://databricks.com/blog/2016/03/16/on-time-flight-performance-with-graphframes-for-apache-spark.html).
 * [How to display/visualize a graph created by GraphFrame?](https://stackoverflow.com/questions/54204062/how-to-display-visualize-a-graph-created-by-graphframe)
 * [PyGraphviz documentation](https://pygraphviz.github.io/documentation/stable/index.html).
