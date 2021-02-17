@@ -1,12 +1,5 @@
 **ST446 Distributed Computing for Big Data**, LT 2021
 
-# Seminar class 5
-
-## Lecture
-
-This week's lecture is about _graph data processing_ in Spark.
-
-## Class
 This week, we will look at data from Stack Exchange. Please have a look at this [notebook](ExploreStackexchangeData.ipynb).
 
 Please run the notebook in a cluster that was initialised as follows. The reason for this is that specific initialisation actions are required to use *Spark GraphFrames*.
@@ -23,7 +16,8 @@ gcloud beta dataproc clusters create kaifang-cluster \
 --project st446-2021-lt --metadata 'PIP_PACKAGES=sklearn nltk pandas graphframes'
 ```
 
-For `Windows` users, please go to the cloud shell provided on your GCP console webpage.
+For `Windows` users, please go to the *cloud shell* provided on your GCP Console Webpage.
+
 1. initialize your gcloud setting by `gcloud init`
 2. set up your region by `gcloud config set dataproc/region europe-west2` (if you are in London; otherwise pick a location closest to you)
 3. run the same commands used by `Mac OS` and `Linux` users.
