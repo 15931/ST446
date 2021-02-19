@@ -82,3 +82,5 @@ as Implicit Matrix Factorization](https://papers.nips.cc/paper/5477-neural-word-
 46. [Algorithms for non-negative matrix factorization](http://papers.nips.cc/paper/1861-algorithms-for-non-negative-matrix-factorization.pdf), [Distributed NMF for Web-Scale Dyadic Data Analysis on MapReduce](http://www.ambuehler.ethz.ch/CDstore/www2010/www/p681.pdf), [Matrix Factorizations at Scale](https://arxiv.org/pdf/1607.01335.pdf) [MV added March 28, 2020]
 47. Distributed training of neural networks using Mesh-TensorFlow [paper](https://papers.nips.cc/paper/8242-mesh-tensorflow-deep-learning-for-supercomputers.pdf), [GitHub repo](https://github.com/tensorflow/mesh): [MV added March 30, 2020]
 48. Data parallel training http://jmlr.org/papers/volume20/18-789/18-789.pdf [MV added April 16, 2020]
+49. Integrative use of Neo4j graph database and Spark (see [here](https://neo4j.com/developer/spark/)) [MEB added February 19, 2021]
+50. Comparative analysis of Apache Flink and Spark (see [here](https://data-flair.training/blogs/comparison-apache-flink-vs-apache-spark/) and [here](https://data-flair.training/blogs/apache-flink-tutorial/)) [MEB added February 19, 2021]
