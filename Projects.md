@@ -13,20 +13,24 @@ Your project may cover different aspects of distributed computing for big data. 
 application programming interfaces, data models, query languages, integration of different systems, computation models, and their distributed implementation 
 at scale. It may focus on specific _machine learning algorithms_ , demonstrating an understanding of their distributed system implementation and performance evaluation.
  
-Your report would typically be in the form of a Jupyter notebook, containing PySpark or other code, along with a Markdown text explaining different parts. 
-You may want to provide a tutorial like exposition for certain subjects covered in your project. For example, this may include instructions for how to install 
+Your **report would typically be in the form of a Jupyter notebook**, containing PySpark or other code, **along with a Markdown text** explaining different parts. 
+You may want to provide a tutorial-like exposition for certain subjects covered in your project. For example, this may include instructions for how to install 
 and run certain software or to explain the underlying key concepts (e.g. system or algorithmic concepts). You may also develop software code and scripts outside 
 a Jupyter notebook. In this case, your report may be in the form of a Markdown file, which points to the code and services that you used in your project. 
-Your report and any other project related material should be submitted in the GitHub classroom repo that will be assigned to your project.
+**Your report and any other project related material should be submitted in the GitHub classroom repo** that will be assigned to your project.
  
-It is expected from your report to be presented up to a high professional standard. This means that it has to be structured well, neat and polished. 
+It is expected from **your report to be** presented up to a high professional standard. This means that it has to be **structured well**, neat and polished. 
 Your report should have a title, abstract, main content body, conclusion, and a list of references. 
 In the abstract, please make sure to briefly describe what is the problem addressed by your project, why is the problem a problem, 
 what is your solution and why you have chosen given solution. The abstract should be short, a paragraph of 5-10 sentences. 
-You may use visualizations in your report, for example using Matplotlib and other Python libraries. 
-Your report may describe a working prototype application (e.g. running a stream processing code that continuously processes an input stream). In this case, your report should contain a clear and full description of the steps that one needs to follow in order to run your application. Your report should cite any references that you use. You may also discuss and cite any previously proposed alternative solutions to your problem. The conclusion section should briefly summarise the results of your project, highlight your main findings, and briefly discuss any interesting avenues for future research.
 
-The list of candidate projects is given below to give you some idea about potential project topics. You may (but you are not expected) to take one of the project topics listed below. 
+You may use **visualizations** in your report, for example using Matplotlib and other Python libraries. 
+
+Your **report may describe a working prototype application** (e.g. running a stream processing code that continuously processes an input stream). In this case, your report should contain a clear and full description of the steps that one needs to follow in order to run your application. 
+
+Your **report should cite any references that you use**. You may also discuss and cite any previously proposed alternative solutions to your problem. The conclusion section should briefly summarise the results of your project, highlight your main findings, and briefly discuss any interesting avenues for future research.
+
+The list of candidate projects is given below to give you some idea about potential project topics. **You may (but you are not expected) to take one of the project topics listed below**. 
 
 ## Candidate project topics
 
