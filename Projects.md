@@ -34,12 +34,12 @@ The list of candidate projects is given below to give you some idea about potent
 
 ## Candidate project topics
 
-1. Querying the knowledge graph [Yago](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/yago/#c10444) knowledge database, PostgreSQL [database](http://resources.mpi-inf.mpg.de/yago-naga/yago/download/yago/postgres.sql)
-2. Querying Yelp data review dataset
-3. Querying [MusicBrainz](https://musicbrainz.org/doc/MusicBrainz_Database) database, see also [this](https://github.com/arey/musicbrainz-database/blob/master/create-database.sh)
+1. Querying the [Yago](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/yago/#c10444) knowledge graph database, PostgreSQL [database](http://resources.mpi-inf.mpg.de/yago-naga/yago/download/yago/postgres.sql)
+2. Querying [Yelp data](https://www.yelp.com/dataset) review dataset
+3. Querying [MusicBrainz](https://musicbrainz.org/doc/MusicBrainz_Database) database (see also [this](https://github.com/arey/musicbrainz-database/blob/master/create-database.sh))
 4. Distributed Deep Neural Network Training using Microsoft Cognitive Toolkit: [QSGD](https://gitlab.com/demjangrubic/QSGD), [GPU deep learning on Azure](http://www.nvidia.com/object/gpu-accelerated-microsoft-azure.html), [GPU VMs on Azure](https://blogs.msdn.microsoft.com/malte_lantin/2017/08/03/using-gpu-powered-virtual-machines-in-the-cloud-for-your-machine-learning-and-deep-learning-workloads/), [Azure docs GPUs](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sizes-gpu)
 5. Microsoft [CosmosDB](https://azure.microsoft.com/en-us/services/cosmos-db/?v=17.45a)
-6. PySpark CosmosDB connector see [here](https://github.com/Azure/azure-cosmosdb-spark/wiki)
+6. PySpark CosmosDB connector (see [here](https://github.com/Azure/azure-cosmosdb-spark/wiki))
 7. Amazon graph database [Neptun](https://aws.amazon.com/neptune/) [Note: excluded because apparently at the moment the usage is subject to getting an approval from AWS.]
 8. Graph database [Neo4J](https://neo4j.com/), [example project](https://neo4j.com/developer/example-project/)
 9. HiveQL applied to an input dataset
