@@ -419,7 +419,7 @@ Time: 2020-03-05 18:33:47
 
 **Now you can interrupt the running programs in all tabs.**
 
-### 6. Twitter example
+### 6. Twitter example (this part will still be revised before the class - 01/03/2021)
 
 #### Streaming tweets and tokenising them
 
