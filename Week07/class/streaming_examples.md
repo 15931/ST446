@@ -549,14 +549,13 @@ jason_yijialin@jialin-cluster-m:~$ sudo cp -r nltk_data/ /home/
 ```
 
 d. Then, `cd` to `$SPARK_HOME` and run it like so:
+(*make sure that you have append the spark-streaming jar file in the configuration file. See Section 2, item d*)
 
 ```
 $ unset PYSPARK_DRIVER_PYTHON
 $ bin/spark-submit ~/kafka_twitter_pyspark.py
 
 ```
-
-make sure that you have append the spark-streaming jar file in the configuration file.
 
 e. If it is running, you will get a stream of outputs with contents like this:
 
