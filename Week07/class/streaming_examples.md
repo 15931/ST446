@@ -36,7 +36,7 @@ a. Take a look of the example (you can use the *vi* or *nano* editors):
 ```
 vi examples/src/main/python/streaming/network_wordcount.py
 ```
-You can exit `vi` by typing `:q` and pressing enter.
+You can exit `vi` by typing `:q` and pressing Enter. You can exit `nano` by typing `ctrl+x` and pressing Enter.
 
 b. Open a new tab connecting to the cluster (called this *tab #1*). To do so, you can repeat the same process when opening the first tab OR you can click on the gear symbol in your current tab (*tab #0*) and choose *New connection to <your cluster name>*.
  
