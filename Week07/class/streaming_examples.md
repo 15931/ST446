@@ -1,6 +1,6 @@
 # Streaming data processing
 
-Here we are going to demonstrate the use of PySpark streaming via the examples under `$SPARK_HOME/examples/src/main/python/streaming/`.
+Here we are going to demonstrate the use of PySpark streaming via the examples under `$SPARK_HOME/examples/src/main/python/streaming/`
 
 Please set up a *gcloud dataproc cluster* using the full command below. **Remember to set appropriate cluster and projects names, as well as choose the region you which your GCP project is running**. 
 
