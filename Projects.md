@@ -85,3 +85,4 @@ as Implicit Matrix Factorization](https://papers.nips.cc/paper/5477-neural-word-
 49. Integrative use of Neo4j graph database and Spark (see [here](https://neo4j.com/developer/spark/)) [MEB added February 19, 2021]
 50. Comparative analysis of Apache Flink and Spark (see [here](https://data-flair.training/blogs/comparison-apache-flink-vs-apache-spark/) and [here](https://data-flair.training/blogs/apache-flink-tutorial/)) [MEB added February 19, 2021]
 51. Distributed Reinforcement Learning [RLib](https://arxiv.org/pdf/1712.09381.pdf) [MV added March 10, 2021]
+52. Distributed Reinforcement learning [ACME](https://deepmind.com/research/publications/Acme) [MV added March 10, 2021]
