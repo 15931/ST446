@@ -1,7 +1,7 @@
-**ST446 Distributed Computing for Big Data**, LT 2020
+**ST446 Distributed Computing for Big Data**, LT 2021
 # Seminar class 8: scalable machine learning II
 
-This class session contains 2 notebooks:
+This class session contains 3 notebooks:
 
 1. ALS recommendation system: [als_movielens.ipynb](als_movielens.ipynb)
 
@@ -9,11 +9,11 @@ This class session contains 2 notebooks:
 
 3. LDA on news text data: [LDA.ipynb](LDA.ipynb)
 
-To run the notebooks, you will have to run a cluster with specific initialisation actions, such that the right libraries and data are installed on all nodes of the cluster. This week, we well even need to add custom initialisation actions.
+To run the notebooks, you will need to instantiate a cluster specific initialisation actions, such that the right libraries and data are installed on all nodes of the cluster. This week, we well even need to add custom initialisation actions.
 
 Please adjust the code below and use it to create your cluster.
 
-In order to install nltk and download the data that it requires to all worker nodes of the cluster, we will need to add a custom initialisation script.
+In order to install **nltk** and download the data that it requires to all worker nodes of the cluster, we will need to add a custom initialisation script.
 
 1. create a bucket
 
