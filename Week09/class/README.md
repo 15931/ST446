@@ -39,7 +39,7 @@ for Windows users, you need to use [dos2unix](http://dos2unix.sourceforge.net/) 
 ```
 gcloud dataproc clusters create ${CLUSTERNAME} \
     --project ${PROJECT} --region ${REGION} \
-    --subnet default --zone europe-west2-a --master-machine-type n1-standard-4 --master-boot-disk-size 500 --num-workers 2 --worker-machine-type n1-standard-4 --worker-boot-disk-size 500 --image-version 1.3-deb9 \
+    --subnet default --zone europe-west2-a --master-machine-type n1-standard-4 --master-boot-disk-size 500 --num-workers 2 --worker-machine-type n1-standard-4 --worker-boot-disk-size 500 --image-version 1.4-debian10 \
     --initialization-actions gs://dataproc-initialization-actions/jupyter/jupyter.sh,gs://dataproc-initialization-actions/python/pip-install.sh,gs://${BUCKET}/my-actions.sh \
     --metadata 'PIP_PACKAGES=sklearn nltk pandas numpy'
 ```
@@ -49,7 +49,7 @@ or
 ```
 gcloud beta dataproc clusters create ${CLUSTERNAME} --project ${PROJECT} \
     --bucket ${BUCKET} --region ${REGION} \
-    --image-version=preview \
+    --image-version=1.4-debian10 \
     --optional-components=ANACONDA,JUPYTER \
     --enable-component-gateway \
     --initialization-actions \
