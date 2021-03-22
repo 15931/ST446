@@ -1,4 +1,4 @@
-**ST446 Distributed Computing for Big Data**, 
+**ST446 Distributed Computing for Big Data**
 
 # Seminar class 9: Distributed TensorFlow
 
