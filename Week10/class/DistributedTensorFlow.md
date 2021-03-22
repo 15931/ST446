@@ -11,7 +11,7 @@ In particular, we are using **data-parallel training**. This means that the trai
 
 ![google_ps](https://cloud.google.com/solutions/images/distributed-tf-arch.png)
 
-We are closely following this [ai-platform-samples](hhttps://github.com/GoogleCloudPlatform/ai-platform-samples) that contains many examples.
+We are closely following this [ai-platform-samples](https://github.com/GoogleCloudPlatform/ai-platform-samples) that contains many examples.
 The code about Chicago Taxi trips is in [training](https://github.com/GoogleCloudPlatform/ai-platform-samples/tree/master/training/tensorflow/structured/base) and [prediction](https://github.com/GoogleCloudPlatform/ai-platform-samples/tree/master/prediction/tensorflow)
 
 ## Introduction and Overview
