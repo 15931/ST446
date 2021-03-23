@@ -127,6 +127,5 @@ train_tensorflow_taxi_20200327_034847  CANCELLED  2020-03-27T03:48:52
 train_tensorflow_taxi_20200327_015155  CANCELLED  2020-03-27T02:03:51
 ```
 
-Delete all compute engines that have been created in the process!
+10. Delete all compute engines that have been created in the process! Also, delete any bucket you have created.
 
-Lastly, we delete the bucket.
