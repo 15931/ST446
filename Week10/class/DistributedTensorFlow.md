@@ -29,7 +29,7 @@ The [base](https://github.com/GoogleCloudPlatform/ai-platform-samples/tree/maste
 ## Understanding the code
 Every node will execute the main file in [task.py](https://github.com/GoogleCloudPlatform/ai-platform-samples/blob/master/training/tensorflow/structured/base/trainer/task.py). There are two major steps executed in `task.py`:
 
-1. Line 271: create a neural network defined in [model.py](https://github.com/GoogleCloudPlatform/ai-platform-samples/blob/master/training/tensorflow/structured/base/trainer/model.py) using `tensorflow.estimator` module.
+1. Line 271: create a neural network defined in [model.py](https://github.com/GoogleCloudPlatform/ai-platform-samples/blob/master/training/tensorflow/structured/base/trainer/model.py) using the `tensorflow.estimator` module.
 2. Line 280: run an experiment to train and evaluate the neural network we specified using a user-defined [experiment](https://github.com/GoogleCloudPlatform/ai-platform-samples/blob/master/training/tensorflow/structured/base/trainer/experiment.py) module.
 
 As you can see in `create()` in [model.py](https://github.com/GoogleCloudPlatform/ai-platform-samples/blob/master/training/tensorflow/structured/base/trainer/model.py), we are using a TensorFlow built-in `DNNLinearCombinedClassifier` to predict whether a trip will be tipped or not. More details about this classifier can be found [here](https://www.tensorflow.org/api_docs/python/tf/estimator/DNNLinearCombinedClassifier).
