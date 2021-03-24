@@ -22,7 +22,7 @@ Have a look at the following picture to understand the underlying data-parallel 
 
 ![illustration](https://cloud.google.com/ml-engine/docs/images/dist-tf-datalab-async-updates.svg) 
 
-Next, have a look at the code in [example code](https://github.com/GoogleCloudPlatform/ai-platform-samples/tree/master/training/tensorflow/structured).
+Next, have a look at the [example code](https://github.com/GoogleCloudPlatform/ai-platform-samples/tree/master/training/tensorflow/structured).
 It contains the code to train the neural network in different setting, e.g. using GPU, using TPU, and distributed training.
 The [base](https://github.com/GoogleCloudPlatform/ai-platform-samples/tree/master/training/tensorflow/structured/base) folder contains the Python code and all other folders only contain the scripts to submit the training job to Google's AI platform.
 
