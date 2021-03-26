@@ -86,3 +86,4 @@ as Implicit Matrix Factorization](https://papers.nips.cc/paper/5477-neural-word-
 50. Comparative analysis of Apache Flink and Spark (see [here](https://data-flair.training/blogs/comparison-apache-flink-vs-apache-spark/) and [here](https://data-flair.training/blogs/apache-flink-tutorial/)) [MEB added February 19, 2021]
 51. Distributed Reinforcement Learning [RLib](https://arxiv.org/pdf/1712.09381.pdf) [MV added March 10, 2021]
 52. Distributed Reinforcement learning [ACME](https://deepmind.com/research/publications/Acme) [MV added March 10, 2021]
+53. [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://dl.acm.org/doi/10.1145/3341301.3359646) [MV added March 26, 2021]
