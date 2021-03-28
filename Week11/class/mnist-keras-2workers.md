@@ -1,4 +1,4 @@
-### ST446 Distributed Computing for Big Data, LT 2020
+### ST446 Distributed Computing for Big Data, LT 2021
 
 # Seminar 10: Distributed dataflow graph computations
 
