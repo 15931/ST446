@@ -2,10 +2,9 @@
 
 # Seminar 10: Distributed dataflow graph computation
 
-In this seminar, we will learn how to do data-parallel computation in TensorFlow 2.x. TensorFlow 2.x provides an API to programmers based on `Strategy` class that allows distributed training of neural networks on multiple devices without an expert knowledge of distributed computing inner workings.
+In this seminar, we will learn how to do data-parallel computation in TensorFlow 2.x. TensorFlow 2.x provides an API to programmers based on the `Strategy` class that allows distributed training of neural networks on multiple devices without an expert knowledge of distributed computing inner workings.
 
-Before the seminar class, we provided you with an exercise on introduction to TensorFlow 2.x [mnist_keras.ipynb](mnist_keras.ipynb) to help you get familiar with the methods like `compile()` and `fit()` and callback functions.
-Remember to run it in Google colab. If the “open in colab” button does not work for you, please download the notebook and upload it to Google colab.
+Before the seminar class, we provided you with an introductory exercise on TensorFlow 2.x to help you get familiar with the methods like `compile()` and `fit()` and callback functions. Run the [mnist_keras.ipynb](mnist_keras.ipynb) in **Google Colab**. If the “open in Colab” button does not work for you, please download the notebook and upload it to Google Colab.
 
 We will cover two subclasses of `Strategy` that are designed for two synchronous data-parallel training senarios, namely:
 *   Single machine with multiple GPUs: `MirroredStrategy()` in [mnist-keras-2gpus.ipynb](mnist-keras-2gpus.ipynb)
