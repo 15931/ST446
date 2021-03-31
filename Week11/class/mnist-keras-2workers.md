@@ -15,7 +15,7 @@ Here is the code to create `worker-0` and change the `INSTANCE_NAME` to create `
 
 ```
 export INSTANCE_NAME="worker-0"
-export IMAGE_FAMILY="tf2-latest-gpu" # TensorFlow 2
+export IMAGE_FAMILY="tf2-latest-gpu"
 export ZONE="europe-west2-a"
 export INSTANCE_TYPE="n1-standard-4"
 gcloud compute instances create $INSTANCE_NAME \
@@ -38,7 +38,7 @@ Then upload [task.py](task.py) to both of the worker instances.
 
 In TensorFlow 2.x, `TF_CONFIG` environment variable needs to be set for training on multiple machines, each of which possibly having a different role. `TF_CONFIG` is used to specify the cluster configuration on each worker that is part of the cluster.
 
-There are two components of `TF_CONFIG`: `cluster` and `task`. `cluster` contains information about the training cluster, which is a dict consisting of different types of jobs such as `worker`. In multi-worker training, there is usually one `worker` that takes responsibility of tasks like saving checkpoints and writing summary file for TensorBoard in addition to what a regular `worker` does. Such worker is referred to as the 'chief' worker, and it is customary that the `worker` with `index` 0 is appointed as the chief `worker` (in fact this is how `tf.distribute.Strategy` is implemented). `task`, on the other hand, provides information about the current task.  
+There are two components of `TF_CONFIG`: `cluster` and `task`. `cluster` contains information about the training cluster, which is a dictionary consisting of different types of jobs such as `worker`. In multi-worker training, there is usually one `worker` that takes responsibility of tasks like saving checkpoints and writing summary file for TensorBoard in addition to what a regular `worker` does. Such worker is referred to as the 'chief' worker, and it is customary that the `worker` with `index` 0 is appointed as the chief `worker` (in fact this is how `tf.distribute.Strategy` is implemented). `task`, on the other hand, provides information about the current task.  
 
 In this example, we set the task `type` to `"worker"` and the task `index` to `0`. This means the machine that has such setting is the first worker, which will be appointed as the chief worker and do more work than other workers. Note that other machines will need to have `TF_CONFIG` environment variable set as well, and it should have the same `cluster` dict, but different task `type` or task `index` depending on what the roles of those machines are.
 
